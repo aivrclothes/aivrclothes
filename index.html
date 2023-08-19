@@ -1,7 +1,18 @@
-<div>
-  test html
-  <img src="https://i.loli.net/2021/04/07/QgHvB7hlJyCnN8s.jpg" />
-</div>
-<script type="javascript">
- alert("test")
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction() {
+  alert("test");
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
 </script>
+</head>
+<body>
+<h2>Demo JavaScript in Head</h2>
+
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+
+</body>
+</html>
